@@ -1,221 +1,258 @@
-<!DOCTYPE HTML>
-<!--
-	Massively by HTML5 UP
-	html5up.net | @ajlkn
-	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
--->
-<html>
-	<head>
-		<title>My Portfolio></title>
-		<meta charset="utf-8" />
-		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
-		<link rel="stylesheet" href="assets/css/main.css" />
-		<noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
-	</head>
-	<body class="is-preload">
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="styles/styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" integrity="sha512-1ycn6IcaQQ40/MKBW2W4Rhis/DbILU74C1vSrLJxCq57o941Ym01SwNsOMqvEBFlcgUa6xLiPY/NS5R+E6ztJQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+</head>
+<body class="main-content">
+    <header class="container header active" id="home">
+        <div class="header-content">
+            <div class="left-header">
+                <div class="h-shape"></div>
+                <div class="image">
+                    <img src="img/hero.png" alt="">
+                </div>
+            </div>
+            <div class="right-header">
+                <h1 class="name">
+                    Hi, I'm <span>Christian Jarmon.</span>
+                    A Programmer & Mathematician.
+                </h1>
+                <p>
+                </p>
+                <div class="btn-con">
+                    <a href="https://www.dropbox.com/s/v5tadj44p6ggwoc/cj%20resume.pdf?dl=1" class="main-btn">
+                        <span class="btn-text">Download CV</span>
+                        <span class="btn-icon"><i class="fas fa-download"></i></span>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </header>
+    <main>
+        <section class="container about" id="about">
+            <div class="main-title">
+                <h2>About <span>me</span><span class="bg-text">my stats</span></h2>
+            </div>
+            <div class="about-container">
+                <div class="left-about">
+                    <h4>Information About me</h4>
+                    <p>
+                        Born and raised in Gardena, California. Educated in Computer Science and Mathematics at 
+                        California State University, Northridge. Earned Bachelor of Science in Computer Science in 2023. <br /> <br />
+                        Interests include Analysis and Design of Algorithms and Systems Programming. Electronics is secondary interest of mine outside of Computer Science.
+                        I study languages and cultures as a hobby with an intermediate and elementary understanding of the Spanish and Portuguese languages, respectively.
+                        
+                    </p>
+                    <div class="btn-con">
+                        <a href="#" class="main-btn">
+                            <span class="btn-text">Download CV</span>
+                            <span class="btn-icon"><i class="fas fa-download"></i></span>
+                        </a>
+                    </div>
+                </div>
+                <div class="right-about">
+                    <div class="about-item">
+                        <div class="abt-text">
+                            <p class="large-text">1+</p>
+                            <p class="small-text">Projects <br /> Completed</p>
+                        </div>
+                    </div>
+                    <div class="about-item">
+                        <div class="abt-text">
+                            <p class="large-text">1+</p>
+                            <p class="small-text">Years of <br /> experience</p>
+                        </div>
+                    </div>
+                  
+                </div>
+            </div>
+            <div class="about-stats">
+                <h4 class="stat-title">My Skills</h4>
+                <div class="progress-bars">
+                    <div class="progress-bar">
+                        <p class="prog-title">C</p>
+                        <div class="progress-con">
+                            <p class="prog-text">80%</p>
+                            <div class="progress">
+                                <span class="html"></span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="progress-bar">
+                        <p class="prog-title">C++</p>
+                        <div class="progress-con">
+                            <p class="prog-text">95%</p>
+                            <div class="progress">
+                                <span class="css"></span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="progress-bar">
+                        <p class="prog-title">Rust</p>
+                        <div class="progress-con">
+                            <p class="prog-text">75%</p>
+                            <div class="progress">
+                                <span class="js"></span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="progress-bar">
+                        <p class="prog-title">java</p>
+                        <div class="progress-con">
+                            <p class="prog-text">65%</p>
+                            <div class="progress">
+                                <span class="react"></span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="progress-bar">
+                        <p class="prog-title">Bash</p>
+                        <div class="progress-con">
+                            <p class="prog-text">87%</p>
+                            <div class="progress">
+                                <span class="node"></span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="progress-bar">
+                        <p class="prog-title">Python</p>
+                        <div class="progress-con">
+                            <p class="prog-text">70%</p>
+                            <div class="progress">
+                                <span class="python"></span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+         <!--    <h4 class="stat-title">My Timeline</h4>
+            <div class="timeline">
+                <div class="timeline-item">
+                    <div class="tl-icon">
+                        <i class="fas fa-briefcase"></i>
+                    </div>
+                    <p class="tl-duration">2000 - 2000</p>
+                    <h5>Web Developer<span> - Random Company, Inc.</span></h5>
+                    <p>
+                        Sample Text
+                    </p>
+                </div>
+                <div class="timeline-item">
+                    <div class="tl-icon">
+                        <i class="fas fa-briefcase"></i>
+                    </div>
+                    <p class="tl-duration">2000 - 2000</p>
+                    <h5>Software Engineer<span> - Random Company, Inc.</span></h5>
+                    <p>
+                        Sample Text
+                    </p>
+                </div>
+                <div class="timeline-item">
+                    <div class="tl-icon">
+                        <i class="fas fa-briefcase"></i>
+                    </div>
+                    <p class="tl-duration">2000 - 2000</p>
+                    <h5>C++ Programmer<span> - Random Company, Inc.</span></h5>
+                    <p>
+                        Sample Text
+                    </p>
+                </div>
+        
+            </div> -->
+        </section>
+        <section class="container contact" id="contact">
+            <div class="contact-container">
+                <div class="main-title">
+                    <h2>Contact <span>Me</span><span class="bg-text">Contact</span></h2>
+                </div>
+                <div class="contact-content-con">
+                    <div class="left-contact">
+                        <h4>Contact me here</h4>
+                        <p>
+                            Any inquires welcome.
+                        </p>
+                        <div class="contact-info">
+                            <div class="contact-item">
+                                <div class="icon">
+                                    <i class="fas fa-map-marker-alt"></i>
+                                    <span>Location</span>
+                                </div>
+                                <p>
+                                    Los Angeles, California
+                                </p>
+                            </div>
+                            <div class="contact-item">
+                                <div class="icon">
+                                    <i class="fas fa-envelope"></i>
+                                    <span>Email</span>
+                                </div>
+                                <p>
+                                    <span>christian.jarmon.147 <b><i> at </i></b> my.csun <b><i> dot </i></b> edu</span>
+                                </p>
+                            </div>
+                            <div class="contact-item">
+                                <div class="icon">
+                                    <i class="fas fa-user-graduate"></i>
+                                    <span>Education</span>
+                                </div>
+                                <p>
+                                    <span>Cal State University, Northridge</span>
+                                </p>
+                            </div>
+                            <div class="contact-item">
+                                <div class="icon">
+                                    <i class="fas fa-globe-africa"></i>
+                                    <span>Languages</span>
+                                </div>
+                                <p>
+                                    <span>English, Spanish</span>
+                                </p>
+                            </div>
+                        </div>
+                        <div class="contact-icons">
+                            <div class="contact-icon">
+                                <a href="https://github.com/kyeou" target="_blank">
+                                    <i class="fab fa-github"></i>
+                                </a>
+                                <a href="https://www.linkedin.com/in/christian-j-8535901b9/" target="_blank">
+                                    <i class="fab fa-linkedin"></i>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="submit-btn">
+                        <a href="https://www.dropbox.com/s/v5tadj44p6ggwoc/cj%20resume.pdf?dl=1" class="main-btn">
+                            <span class="btn-text">Download CV</span>
+                            <span class="btn-icon"><i class="fas fa-download"></i></span>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
 
-		<!-- Wrapper -->
-			<div id="wrapper" class="fade-in">
-
-				<!-- Intro -->
-					<div id="intro">
-						<h1>My Porfolio</h1>
-						<p>A collection of the group and personal projects I have taken part in. 
-						<ul class="actions">
-							<li><a href="#header" class="button icon solid solo fa-arrow-down scrolly">Continue</a></li>
-						</ul>
-					</div>
-
-				<!-- Nav -->
-					<nav id="nav">
-						<ul class="links">
-							<li class="active"><a href="index.html">Home</a></li>
-						</ul>
-						<ul class="icons">
-							<li><a href="https://www.linkedin.com/in/mauricio-deguchi-5951a31b9/" class="icon brands fa-linkedin"><span class="label">Instagram</span></a></li>
-							<li><a href="https://github.com/Mauricio-Deguchi" class="icon brands fa-github"><span class="label">GitHub</span></a></li>
-						</ul>
-					</nav>
-
-				<!-- Main -->
-					<div id="main">
-
-						<!-- Featured Post -->
-							<article class="post featured">
-								<header class="major">
-									<h2>Mauricio Deguchi</h2>
-									<h3><a>About me</a></h3>
-									<div class="row">
-										<div class="col-3"><span></span></div>
-										<div class="col-6"><span class="image fit"><img src="images/profile.jpg" alt="" /></span></div>
-									</div>
-									<p>Hi! My name is Mauricio Deguchi, I am a second year studying Mechanical Engineering at UCLA (Class of 2024). A little bit about myself, I was born and raised in Mexico City into a Mexican-Japanese family. I love the uniqueness of each culture and it helps me understand and appreciate a variety of other cultures. As for my academic interests, I am interested in electro-mechanical systems. I am passionate about robotics and hope to pursue my Master's in the field of mechatronics. Recently, I have been working on a lot of software and thermal systems which have further broadened my interests. I love learning and exploring new fields; each one is unique and I feel that the breadth helps me understand a more holistic view on any front. </p>
-								</header>
-							</article>
-
-						<!-- Posts -->
-							<section class="posts">
-								<article>
-									<header>
-										<span class="date">Robotics Research</span>
-										<h2><a href="#">Autonomous<br />
-										Origami Crawler</a></h2>
-									</header>
-									<a href="autonomous origami crawler.html" class="image fit"><img src="images/origami.jpg" alt="" /></a>
-									<p>I had the priviledge of working in an origami robotics research lab where I was mentored in compliant mechanisms, leading to the design and manufacturing of this autonomous robotic crawler. A collection of these robots and their logic have been published in the Science Advances Journal.</p>
-									<ul class="actions special">
-										<li><a href="autonomous origami crawler.html" class="button">check it out</a></li>
-									</ul>
-								</article>
-								<article>
-									<header>
-										<span class="date">Heat Transfer Research</span>
-										<h2><a>Heat Sink Efficiency</a></h2>
-									</header>
-									<a  class="image fit"><img src="images/heatTransfer.jpg" alt="" /></a>
-									<p>My most recent project involves analyzing modern heat transfer methods and finding optimizations in heat extraction. Unfortunately, I am unable to post any results for the time being.</p>
-									<ul class="actions special">
-										<li><a >coming soon</a></li>
-									</ul>
-								</article>
-								<article>
-									<header>
-										<span class="date">Personal Project</span>
-										<h2><a href="whitsle car.html">Whistle Car</a></h2>
-									</header>
-									<a href="whitsle car.html" class="image fit"><img src="images/Car_2.png" alt="" /></a>
-									<p>In an effort to explore coding in Python & C, I designed a fully functional whistle controleld car using Fourier Transforms.</p>
-									<ul class="actions special">
-										<li><a href="whitsle car.html" class="button">check it out</a></li>
-									</ul>
-								</article>
-								<article>
-									<header>
-										<span class="date">Club Project</span>
-										<h2><a href="bearospace.html">Bearospace</a></h2>
-									</header>
-									<a href="bearospace.html" class="image fit"><img src="images/payload.jpg" alt="" /></a>
-									<p>I worked in a team to fully design rocket to compete in NASA's USLI design division. I was divded in hepling both the payload and structures subteams achieve their deisgn.</p>
-									<ul class="actions special">
-										<li><a href="bearospace.html" class="button">check it out</a></li>
-									</ul>
-								</article>
-								<article>
-									<header>
-										<span class="date">Data Structures & Algorithms</span>
-										<h2><a href="coding projects (c++).html">Coding Projects (C++)</a></h2>
-									</header>
-									<a href="coding projects (c++).html" class="image fit"><img src="images/coding(c++).jpg" alt="" /></a>
-									<p>Projects from UCLA's Data Structures & Algorithms class (CS 32), including a Battelship game with a smart computer that beats a mediocre player at a 97% win ratio.</p>
-									<ul class="actions special">
-										<li><a href="coding projects (c++).html" class="button">check it out</a></li>
-									</ul>
-								</article>
-								<article>
-									<header>
-										<span class="date">Intro to Matlab</span>
-										<h2><a href="coding projects (c++).html">Coding Projects (MATLAB)</a></h2>
-									</header>
-									<a href="coding projects (MATLAB).html" class="image fit"><img src="images/SIR matlab.svg" alt="" /></a>
-									<p>Projects from UCLA's Intro to MATLAB, including an SIR model to reflect the spread of disease on a sequence of global populations.</p>
-									<ul class="actions special">
-										<li><a href="coding projects (c++).html" class="button">check it out</a></li>
-									</ul>
-								</article>
-								<article>
-									<header>
-										<span class="date">Class Project</span>
-										<h2><a href="path following car.html">Path Follwing<br />
-										Car</a></h2>
-									</header>
-									<a href="path following car.html" class="image fit"><img src="images/ece3.jpg" alt="" /></a>
-									<p>As an introduction to electrical systems and feedback, I collaborated with a partner to encode a PID controller for a car to follow a dark path.</p>
-									<ul class="actions special">
-										<li><a href="path following car.html" class="button">check it out</a></li>
-									</ul>
-								</article>
-								<article>
-									<div class="row">
-										<div class="col-12">
-
-											<h3>Course Work</h3>
-											<ul>
-												<li>Transport Phenomena</li>
-												<li>Intro to Thermodynamics</li>
-												<li>Intro to Fluid Mechanics</li>
-												<li>Statics & Strength of Materials</li>
-												<li>Circuit Theory</li>
-												<li>Data Structures & Algorithms</li>
-												<li>Intro to MATLAB</li>
-											</ul>
-										</div>
-									</div>
-
-									<div class="row">
-										<div class="col-12">
-
-											<h3>Organizations</h3>
-											<ul>
-												<li>Tau Beta Pi (Engineering Honor Society)</li>
-												<li>Society of LatinX Engineers & Scientists</li>
-												<li>UCLA's Center for Excellence in Engineering and Diversity</li>
-											</ul>
-										</div>
-									</div>
-									<div class="row">
-										<div class="col-12">
-
-											<h3>Skills</h3>
-											<ul>
-												<li>Fluent in Spanish</li>
-												<li>3-D Modelling (Solidworks, Fusion 360, AutoCAD)</li>
-												<li>Rapid Prototyping (Lazer cutting, 3-D printing)</li>
-												<li>C/C++ & MATLAB</li>
-												<li>Adobe Creative Cloud</li>
-											</ul>
-										</div>
-									</div>
-
-								</article>
-							</section>
-					</div>
-
-				<!-- Footer -->
-					<footer id="footer">
-						<section class="split contact">
-							<section class="alt">
-								<h3>Hometown</h3>
-								<p>Canyon Country, CA</p>
-							</section>
-							<section>
-								<h3>Email</h3>
-								<p><a href="#">mau91956@g.ucla.edu</a></p>
-							</section>
-							<section>
-								<h3>Social</h3>
-								<ul class="icons alt">
-									<li><a href="https://www.linkedin.com/in/mauricio-deguchi-5951a31b9/" class="icon brands fa-linkedin"><span class="label">Instagram</span></a></li>
-									<li><a href="https://github.com/Mauricio-Deguchi" class="icon brands fa-github"><span class="label">GitHub</span></a></li>
-								</ul>
-							</section>
-						</section>
-					</footer>
-
-				<!-- Copyright -->
-					<div id="copyright">
-						<ul><li>&copy; Untitled</li><li>Design: <a href="https://html5up.net">HTML5 UP</a></li></ul>
-					</div>
-
-			</div>
-
-		<!-- Scripts -->
-			<script src="assets/js/jquery.min.js"></script>
-			<script src="assets/js/jquery.scrollex.min.js"></script>
-			<script src="assets/js/jquery.scrolly.min.js"></script>
-			<script src="assets/js/browser.min.js"></script>
-			<script src="assets/js/breakpoints.min.js"></script>
-			<script src="assets/js/util.js"></script>
-			<script src="assets/js/main.js"></script>
-
-	</body>
+    <div class="controls">
+        <div class="control active-btn" data-id="home" >
+            <i class="fas fa-home"></i>
+        </div>
+        <div class="control" data-id="about">
+            <i class="fas fa-user"></i>
+        </div>
+        <div class="control" data-id="contact">
+            <i class="fas fa-envelope-open"></i>
+     </div> 
+    </div>
+    <div class="theme-btn">
+        <i class="fas fa-adjust"></i>
+    </div>
+    <script src="app.js"></script>
+</body>
 </html>

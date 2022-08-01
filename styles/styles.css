@@ -166,7 +166,7 @@ section {
 .header-content .left-header .h-shape {
   transition: all 0.8s ease-in-out;
   width: 85%;
-  height: 70%;
+  height: 200%;
   background-color: var(--color-secondary);
   position: absolute;
   left: 0;

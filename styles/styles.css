@@ -88,7 +88,7 @@ section {
 }
 .container {
   max-height: 90px;
-  width: 100%;
+  width: fit-content;
 }
 .controls {
   position: fixed;
@@ -160,7 +160,7 @@ section {
 .header-content .left-header {
   display: flex;
   padding-top: 40px;
-  align-items: center;
+  align-items: top;
   position: relative;
 }
 .header-content .left-header .h-shape {
@@ -198,7 +198,7 @@ section {
 .header-content .right-header {
   display: flex;
   flex-direction: column;
-  justify-content: center;
+  justify-content: top;
   padding-right: 18rem;
   padding-top: 280px;
 }

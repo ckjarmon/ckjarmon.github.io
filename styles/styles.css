@@ -160,7 +160,7 @@ section {
 .header-content .left-header {
   display: flex;
   padding-top: 40px;
-  align-items: top;
+  align-items: center;
   position: relative;
 }
 .header-content .left-header .h-shape {

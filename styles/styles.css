@@ -6,7 +6,7 @@
 }
 :root {
   --color-primary: #000000;
-  --color-secondary:#e91111;
+  --color-secondary:#f01818;
   --color-white: #FFFFFF;
   --color-black: #000;
   --color-grey0: #f8f8f8;
@@ -21,9 +21,9 @@
 }
 
 .light-mode {
-  --color-primary: rgb(202, 200, 200);
-  --color-secondary: #fbff2c;
-  --color-white: #f8f8f8;
+  --color-primary: rgb(190, 184, 184);
+  --color-secondary: #5f5f59;
+  --color-white: #000000;
   --color-black: #000;
   --color-grey0: #f8f8f8;
   --color-grey-1: #6c7983;
@@ -172,11 +172,11 @@ section {
   left: 0;
   top: 0;
   z-index: -1;
-  clip-path: polygon(0 0, 46% 0, 79% 100%, 0% 100%);
+  clip-path: polygon(0 0, 16% 0, 79% 100%, 0% 100%);
 }
 .header-content .left-header .image {
   border-radius: 100px;
-  height: 60%;
+  height: 120%;
   width: 68%;
   margin-left: 4rem;
   background-color: var(--color-black);

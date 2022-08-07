@@ -487,10 +487,11 @@ section {
 .contact-content-con {
   display: flex;
   padding-top: 3.5rem;
-  width: 1480px;
+  width: 100%;
 }
 .contact-content-con .left-contact {
   flex: 2;
+  width: 1380px;
 }
 .contact-content-con .left-contact h4 {
   margin-top: 1rem;

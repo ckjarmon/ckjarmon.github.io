@@ -487,11 +487,11 @@ section {
 .contact-content-con {
   display: flex;
   padding-top: 3.5rem;
-  width: 100%;
+
 }
 .contact-content-con .left-contact {
   flex: 2;
-  width: 1380px;
+
 }
 .contact-content-con .left-contact h4 {
   margin-top: 1rem;
@@ -507,7 +507,7 @@ section {
 .contact-content-con .left-contact .contact-info .contact-item {
   display: flex;
   align-items: center;
-  justify-content:last baseline;
+  justify-content:space-between;
   
 }
 .contact-content-con .left-contact .contact-info .contact-item p {

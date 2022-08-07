@@ -413,7 +413,7 @@ section {
   text-align: center;
 }
 
-.portfolios {
+/* .portfolios {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   grid-gap: 2rem;
@@ -482,7 +482,7 @@ section {
 .portfolio-item:hover .hover-items {
   opacity: 1;
   transform: scale(1);
-}
+} */
 
 .contact-content-con {
   display: flex;

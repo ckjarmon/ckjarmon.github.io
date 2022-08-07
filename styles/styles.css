@@ -166,13 +166,13 @@ section {
 .header-content .left-header .h-shape {
   transition: all 0.8s ease-in-out;
   width: 85%;
-  height: 200%;
+  height: 150%;
   background-color: var(--color-secondary);
   position: absolute;
   left: 0;
   top: 0;
   z-index: -1;
-  clip-path: polygon(0 0, 16% 0, 79% 100%, 0% 100%);
+  clip-path: polygon(75% 0%, 100% 50%, 75% 100%, 0% 100%, 25% 50%, 0% 0%);
 }
 .header-content .left-header .image {
   border-radius: 100px;

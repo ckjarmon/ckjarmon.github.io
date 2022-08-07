@@ -357,7 +357,7 @@ section {
   transform: translateX(-50%);
 }
 
-/*Timeline*/
+/*Timeline*//*
 .timeline {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
@@ -413,7 +413,7 @@ section {
   text-align: center;
 }
 
-/* .portfolios {
+ .portfolios {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   grid-gap: 2rem;

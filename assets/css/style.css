@@ -621,6 +621,16 @@ section {
   border: 2px solid #0563bb;
 }
 
+/* Force vertical stacking in Resume section */
+.resume .row {
+  display: block; /* Overrides Bootstrap flexbox row */
+}
+
+.resume .resume-columns .col-lg-6 {
+  width: 100%;     /* Take full width */
+  max-width: 100%; /* Prevent Bootstrap max-widths */
+}
+
 /*--------------------------------------------------------------
 # Portfolio
 --------------------------------------------------------------*/

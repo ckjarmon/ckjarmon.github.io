@@ -82,7 +82,8 @@
     <section id="about" class="about">
       <div class="container" data-aos="fade-up">
         <div class="btn-con">
-          <a href="https://mega.nz/file/lSVWTJbJ#rpeP1duSrf11JPTsZHYtCYl_IcJ1z7Djw-HV3WFXp1c" class="main-btn">
+          <a href="https://mega.nz/file/kLVDlJZC#bPr-j-3aMQ37w0IwCWbnNG8iMRJqfmm67hS_-8smicA" target="_blank"
+            class="main-btn">
             <span class="btn-text">Download CV (Light)</span>
             <span class="btn-icon"><i class="fas fa-download"></i></span>
           </a>
@@ -131,22 +132,20 @@
 
 
     <!-- ======= Resume Section ======= -->
-
     <section id="resume" class="resume">
       <div class="container" data-aos="fade-up">
-
         <div class="section-title">
           <h2>Resume</h2>
-          <p> </p>
         </div>
 
-        <div class="row">
+        <div class="row resume-columns">
+          <!-- Education -->
           <div class="col-lg-6">
             <h3 class="resume-title">Education</h3>
             <div class="resume-item">
               <h4>Bachelor of Science, Computer Science</h4>
               <h5>2021 - 2023</h5>
-              <p><em>California State Univeristy, Northridge, CA, USA</em></p>
+              <p><em>California State University, Northridge, CA, USA</em></p>
             </div>
             <div class="resume-item">
               <h4>Associate of Science, Computer Science</h4>
@@ -154,60 +153,63 @@
               <p><em>College of the Canyons, Valencia, CA, USA</em></p>
             </div>
           </div>
-          
+
+          <!-- Experience -->
           <div class="col-lg-6">
             <h3 class="resume-title">Professional Experience</h3>
+
             <div class="resume-item">
-              <h4> Software Engineer III </h4>
+              <h4>Software Engineer</h4>
               <h5>September 2023 - Present</h5>
-              <p><em>American Express </em></p>
+              <p><em>American Express</em></p>
               <ul>
-
-
-
-
+                <li>Reduced report generation time by 99% by automating manual processes using T-SQL and JavaScript.
+                </li>
+                <li>Architected a portal with a 30-table PostgreSQL schema powering a Golang API and Next.js frontend.
+                </li>
+                <li>Streamlined onboarding for incident tools (1 month → 2–3 days).</li>
+                <li>Assisted modernization from HTML/JS/PHP to React/Golang/PostgreSQL.</li>
+                <li>Designed a 12-table PostgreSQL database and outlined development strategy.</li>
+                <li>Coordinated engineering tasks, meetings, and documentation efforts.</li>
+                <li>Led transition from PHP/MySQL to TypeScript (Next.js), Golang, and PostgreSQL.</li>
+                <li>Standardized API testing in Go, cutting test time by 99%.</li>
+                <li>Implemented E2E tests with Playwright, reducing delivery time by 200%.</li>
+                <li>Built internal S3 storage using Python and Boto.</li>
+                <li>Optimized dashboard queries, improving load times by 95%.</li>
+                <li>Promoted from Software Engineer III to II.</li>
               </ul>
             </div>
+
             <div class="resume-item">
-              <h4>Lead Automation Engineer </h4>
+              <h4>Lead Automation Engineer</h4>
               <h5>January 2023 - April 2023</h5>
-              <p><em> Reguard/NAX Group </em></p>
+              <p><em>Reguard/NAX Group</em></p>
               <ul>
-
-                <li><em>Led an automation team of 3 to architect and develop strategies for test automation and
-                    deployment</em></li>
-                <li><em>Managed task assignments and code reviews for this team while directly reporting to the Product
-                    Lead</em></li>
-                <li><em>Utilized the Cypress testing framework to automate End-to-End tests using
-                    Javascript/Typescript</em></li>
-                <li><em>Sped up testing runs by more than 90%, scaling down from a day to approximately 6 minutes</em>
-                </li>
-                <li><em>Used TestRail to document and record tests and configured Cypress to report</em></li>
-                <li><em>Drove discussion with DevOps and SWE teams to construct the automated testing integration</em>
-                </li>
-                <li><em>Used GitHub Actions to launch test runs on every Github pull request</em></li>
-
-
+                <li>Led a team of 3 devs in designing automated testing strategies.</li>
+                <li>Reduced E2E test time by 97% using Cypress.</li>
+                <li>Built a robust Cypress automation framework in JS/TS.</li>
+                <li>Integrated tests into CI/CD with DevOps collaboration.</li>
+                <li>Used GitHub Actions to auto-trigger tests on PRs (30% fewer integration issues).</li>
+                <li>Tracked test cases with TestRail to align with product goals.</li>
+                <li>Managed task assignments and conducted code reviews.</li>
               </ul>
             </div>
 
             <div class="resume-item">
-              <h4>Instructional Student Assistant - Math </h4>
+              <h4>Instructional Student Assistant - Math</h4>
               <h5>January 2022 - January 2023</h5>
-              <p><em>California State Univeristy, Northridge, CA </em></p>
+              <p><em>California State University, Northridge, CA</em></p>
               <ul>
-                <li><em>Instructed Differential/Integral Calculus and Applied Statistics to undergraduate students.</em>
-                </li>
-                <li><em>Calculus topics include Techniques of Integration and Sequences and Series. </em></li>
-                <li><em>Applied Statistics topics include Discrete and Continuous Random Variables, Probability
-                    Distributions, and
-                    Central Limit Theorem.</em> </li>
+                <li>Taught Calculus and Statistics to undergraduates.</li>
+                <li>Covered Techniques of Integration, Sequences, and Series.</li>
+                <li>Explained Random Variables, Distributions, and CLT.</li>
               </ul>
             </div>
           </div>
         </div>
       </div>
-    </section><!-- End Resume Section -->
+    </section>
+
   </main><!-- End #main -->
 
   <!-- ======= Footer ======= -->
@@ -215,9 +217,8 @@
     <div class="container">
       <h3>Christian Jarmon</h3>
       <div class="social-links">
-        <a href="https://github.com/kyeou" class="github"><i class="bx bxl-github"></i></a>
-        <a href="https://www.linkedin.com/in/christian-j-8535901b9/" class="linkedin"><i
-            class="bx bxl-linkedin"></i></a>
+        <a href="https://github.com/ckjarmon" class="github"><i class="bx bxl-github"></i></a>
+        <a href="https://www.linkedin.com/in/christianjarmon" class="linkedin"><i class="bx bxl-linkedin"></i></a>
       </div>
     </div>
   </footer><!-- End Footer -->
